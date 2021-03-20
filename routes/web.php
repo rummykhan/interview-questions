@@ -14,10 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-
-    $car = new \App\Structure\Car();
-
-    dd($car);
-
     return view('welcome');
 });
